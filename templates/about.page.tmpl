@@ -1,0 +1,17 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div class="container">
+        <div class="row">
+            <h1>this is the about page</h1>
+            <div class="col"> 
+                <p>ad libero ipsum quas sunt.</p>  
+                <p>ad libero ipsum quas sunt.</p>  
+                <p>ad libero ipsum quas sunt.</p>
+
+
+                <p>this came from template: {{index .StringMap "test"}}</p>
+            </div>
+        </div>
+    </div>
+{{end}}
